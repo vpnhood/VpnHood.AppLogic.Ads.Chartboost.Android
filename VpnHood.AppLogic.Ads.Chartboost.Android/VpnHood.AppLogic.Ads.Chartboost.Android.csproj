@@ -19,8 +19,8 @@
 		<Copyright>© OmegaHood LLC. All rights reserved.</Copyright>
 		<PackageIcon>VpnHood.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageProjectUrl>https://github.com/vpnhood/VpnHood.AppLib.Ads.Chartboost.Android</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/vpnhood/VpnHood.AppLib.Ads.Chartboost.Android</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/vpnhood/VpnHood.AppLogic.Ads.Chartboost.Android</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/vpnhood/VpnHood.AppLogic.Ads.Chartboost.Android</RepositoryUrl>
 		<Version>9.0.576</Version>
 		<FileVersion>$([System.DateTime]::Now.ToString("yyyy.M.d.HHmm"))</FileVersion>
 		<BaseIntermediateOutputPath />
@@ -53,7 +53,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="VpnHood.AppLib.Abstractions" Version="8.2.853" />
+		<PackageReference Include="VpnHood.AppLogic.Abstractions" Version="8.2.853" />
 		<PackageReference Include="VpnHood.Core.Client.Devices.Android" Version="8.2.853" />
 	</ItemGroup>
 

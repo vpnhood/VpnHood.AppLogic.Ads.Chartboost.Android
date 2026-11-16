@@ -11,7 +11,7 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VpnHood.AppLib.Ads.Chartboost.Android\VpnHood.AppLib.Ads.Chartboost.Android.csproj" />
+    <ProjectReference Include="..\VpnHood.AppLogic.Ads.Chartboost.Android\VpnHood.AppLogic.Ads.Chartboost.Android.csproj" />
   </ItemGroup>
 
 	<!-- The ad ids, one value per file in the private .user folder beside this repo

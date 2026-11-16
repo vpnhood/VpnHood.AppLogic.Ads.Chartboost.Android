@@ -1,13 +1,13 @@
 using Com.Chartboost.Sdk.Ads;
 using Com.Chartboost.Sdk.Callbacks;
 using Com.Chartboost.Sdk.Events;
-using VpnHood.AppLib.Abstractions.Ads;
-using VpnHood.AppLib.Abstractions.Ads.AdExceptions;
+using VpnHood.AppLogic.Abstractions.Ads;
+using VpnHood.AppLogic.Abstractions.Ads.AdExceptions;
 using VpnHood.Core.Client.Devices.Abstractions.UiContexts;
 using VpnHood.Core.Client.Devices.Android;
 using VpnHood.Core.Client.Devices.Android.Utils;
 
-namespace VpnHood.AppLib.Ads.Chartboost.Android;
+namespace VpnHood.AppLogic.Ads.Chartboost.Android;
 
 public class ChartboostAdProvider(string appId, string adSignature, string adLocation, TimeSpan initializeTimeout)
     : IAdProvider

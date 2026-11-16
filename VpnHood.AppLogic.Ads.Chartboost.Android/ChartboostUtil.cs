@@ -2,12 +2,12 @@
 using Com.Chartboost.Sdk.Callbacks;
 using Com.Chartboost.Sdk.Events;
 using Com.Chartboost.Sdk.Privacy.Model;
-using VpnHood.AppLib.Abstractions.Ads.AdExceptions;
+using VpnHood.AppLogic.Abstractions.Ads.AdExceptions;
 using VpnHood.Net.Toolkit.Utils;
-// inside VpnHood.AppLib.Ads.Chartboost.Android a bare "Chartboost" is the parent namespace, not the SDK class
+// inside VpnHood.AppLogic.Ads.Chartboost.Android a bare "Chartboost" is the parent namespace, not the SDK class
 using ChartboostSdk = Com.Chartboost.Sdk.Chartboost;
 
-namespace VpnHood.AppLib.Ads.Chartboost.Android;
+namespace VpnHood.AppLogic.Ads.Chartboost.Android;
 
 public class ChartboostUtil
 {

@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BUILD_CONFIG: 'Release'
-      PROJECT_NAME: 'VpnHood.AppLib.Ads.Chartboost.Android/VpnHood.AppLib.Ads.Chartboost.Android.csproj'
+      PROJECT_NAME: 'VpnHood.AppLogic.Ads.Chartboost.Android/VpnHood.AppLogic.Ads.Chartboost.Android.csproj'
 
     steps:
     - name: Checkout
@@ -94,7 +94,7 @@ jobs:
       run: dotnet pack $PROJECT_NAME --configuration $BUILD_CONFIG -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg
 
     # Trusted publishing: exchange the workflow's OIDC token for a short-lived nuget.org API key
-    # (policy: vpnhood/VpnHood.AppLib.Ads.Chartboost.Android + nuget-main.yml, created by trudyhood).
+    # (policy: vpnhood/VpnHood.AppLogic.Ads.Chartboost.Android + nuget-main.yml, created by trudyhood).
     - name: NuGet login (trusted publishing)
       if: github.event_name == 'push'
       id: nuget_login

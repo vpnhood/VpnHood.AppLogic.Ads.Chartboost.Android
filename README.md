@@ -1,4 +1,4 @@
-# VpnHood.AppLib.Ads.Chartboost.Android
+# VpnHood.AppLogic.Ads.Chartboost.Android
 
 Chartboost interstitial ads for an Android app built on [VpnHood](https://github.com/vpnhood/VpnHood):
 an ad provider that the app's ad service loads and shows like its other ad networks. The package binds
@@ -17,8 +17,8 @@ for Chartboost.
 Add the provider to the list the app gets as `AppOptions.AdProviderItems`:
 
 ```csharp
-using VpnHood.AppLib.Ads.Chartboost.Android;
-using VpnHood.AppLib.App.Services.Ads;
+using VpnHood.AppLogic.Ads.Chartboost.Android;
+using VpnHood.AppLogic.App.Services.Ads;
 
 if (ChartboostAdProvider.IsAndroidVersionSupported)
     adProviderItems.Add(new AppAdProviderItem {
