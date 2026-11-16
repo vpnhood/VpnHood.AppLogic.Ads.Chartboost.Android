@@ -53,8 +53,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="VpnHood.AppLogic.Abstractions" Version="8.2.853" />
-		<PackageReference Include="VpnHood.Core.Client.Devices.Android" Version="8.2.853" />
+		<PackageReference Include="VpnHood.AppLogic.Abstractions" Version="9.1.875" />
+		<PackageReference Include="VpnHood.Core.Client.Devices.Android" Version="9.1.875" />
 	</ItemGroup>
 
 	<!-- What the Chartboost SDK needs at runtime, from its POM; the build verifies the list is complete.
